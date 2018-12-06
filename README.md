@@ -1,4 +1,4 @@
-# Homework Assignmet #5 of the course "[Node.JS Master Class](https://pirple.thinkific.com/courses/the-nodejs-master-class)"
+# Homework Assignment #5 of the course "[Node.JS Master Class](https://pirple.thinkific.com/courses/the-nodejs-master-class)"
 
 # Installation
 1. Clone this repo
