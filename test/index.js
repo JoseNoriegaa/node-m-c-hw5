@@ -5,13 +5,13 @@
 // Application logic for the test runner
 app = {};
 
-// Holder of all tests
+// tests wrapper
 app.tests = {};
 
 // Dependencies
 app.tests.unit = require('./unit');
 
-// Count all the tests
+// tests counter
 app.countTests = () => {
   let counter = 0;
   for (const key in app.tests){
@@ -27,7 +27,7 @@ app.countTests = () => {
   return counter;
 };
 
-// Run all the tests, collecting the errors and successes
+// Run tests, collecting the errors and successes
 app.runTests = () => {
   const errors = [];
   let successes = 0;
@@ -71,7 +71,7 @@ app.runTests = () => {
   }
 };
 
-// Product a test outcome report
+// Produce a test outcome report
 app.produceTestReport = (limit, successes, errors) => {
   console.log('');
   console.log('--------BEGIN TEST REPORT--------');
@@ -80,7 +80,7 @@ app.produceTestReport = (limit, successes, errors) => {
   console.log('Pass: ',successes);
   console.log('Fail: ',errors.length);
   console.log('');
-  // If there are errors, print them in detail
+  // If there are errors, print them in details
   if (errors.length > 0) {
     console.log('--------BEGIN ERROR DETAILS--------');
     console.log('');
@@ -96,5 +96,5 @@ app.produceTestReport = (limit, successes, errors) => {
   console.log('--------END TEST REPORT--------');
 };
 
-// Run the tests
+// Run tests
 app.runTests();

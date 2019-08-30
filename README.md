@@ -5,8 +5,8 @@
   ```console
   $ git clone https://github.com/JoseNoriegaa/node-m-c-hw5.git hw5
   ```
-2. Open the proyect folder and run it
+2. Open the project folder and run it
   ```console
-  $ cd hw4
+  $ cd hw5
   $ node test
   ```

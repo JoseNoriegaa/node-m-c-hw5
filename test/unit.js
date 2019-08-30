@@ -6,7 +6,7 @@
 const assert = require('assert');
 const randomFunctions = require('../app/lib');
 
-// Holder for Tests
+// Tests container
 const unit = {};
 
 /**

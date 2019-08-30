@@ -2,7 +2,7 @@
  * Random functions
  */
 
-// container for all functions
+// functions container
 const container = {};
 
 /**
@@ -54,7 +54,7 @@ container.bubbleSort = (nums) => {
 };
 
 /**
- * Check up if a parameter is a prime number
+ * Check if a parameter is a prime number
  * @param {Number} num
  */
 container.isAPrimeNumber = (num) => {
